@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sravya Pavuluri | Portfolio</title>
+    <link rel="stylesheet" href="Assets/styles.css" />
+</head>
+
+<body>
+    <!--header with navigation-->
+    <header>
+        <h1>Sai Sravya Pavuluri</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <!--Here am adding the sections mentioned in ul-->
+    <main>
+        <!--About Section-->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="./Assets/Woman.png" alt="Sravya Pavuluri">
+            <p>Hi! I am Sravya, an aspiring web developer learning HTML and CSS in week1.
+                I am passionate about building and developing beautiful websites.
+                Prior to this I was a JD Edwards CNC admin with 9 years of industry experience.
+            </p>
+        </section>
+        <!--Projects-->
+        <section id="projects">
+            <h2>Projects</h2>
+            <article class="project">
+                <h3>Project1:3M</h3>
+                <p>•	Automated functional tests for Web, Database and API services.
+                   •	Developed and executed automated test and test automation scripts using Selenium WebDriver with Java to validate web application functionality, significantly reducing manual testing efforts.
+                   </p>
+            </article>
+            <article class="project">
+                <h3>Project2:Michilin</h3>
+                <p>•	Promote objects using OMW, Assemble, build (full/update), deploy of pkgs
+                   •	Responsible for JDE Security auditing on quarterly basis, managing the security and user profiles in System
+                   •	Package builds and administration
+                </p>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message:</label>
+                <textarea type="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+         <p>You can also reach me via <a href=mailto:ps.sravya@gmail.com>Email</a>
+        or Call me at <a href="tel:+441234567890">PhoneNo</a></p>   
+        </section>
+    </main>
+   <footer>
+    <p>&copy;Sai Sravya Pavuluri</p>
+   </footer> 
+    
+</body>

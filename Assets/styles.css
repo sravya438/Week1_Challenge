@@ -1,0 +1,209 @@
+<<<<<<< HEAD
+.root{
+    --background-color:#555555;
+    --text-color:#1422e8;
+    --heading-color:#14eb14;
+    --header-color:#f1f135;
+}
+*{
+    background-color:#5f5858 ;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+header{
+    background-color: var(--header-color);
+    color: pink;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1{
+    color: var(--heading-color);
+    margin-bottom: 5px;
+}
+nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+nav a{
+    color: #920bf2;
+    text-decoration:none;
+    font-weight: 500;
+}
+nav a:hover{
+    text-decoration:underline;
+    text-decoration-color:darkturquoise;
+}
+section {
+  margin: 40px 0;
+  padding: 10px;
+  background-color: var(--background-color);
+  border-radius: 8px;
+}
+section h2{
+    padding-bottom: 10px;
+    color: var(--text-color);
+}
+section img{
+   width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  margin: 20px auto;
+}
+.project{
+    margin-bottom: 30px;
+}
+.project h3{
+  text-align:left;
+  margin-top: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+input:hover,textarea:hover{
+    background-color: rgb(17, 69, 69);
+    font-size: 20px;
+}
+button{
+    color: azure;
+    border: solid 2px;
+    border-color: rgb(17, 69, 69);
+    cursor:pointer;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  background-color:none;
+  font-size: 0.9em;
+}
+/* Responsive */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction:column;
+    text-align: left;
+  }
+}
+
+=======
+.root{
+    --background-color:#555555;
+    --text-color:#1422e8;
+    --heading-color:#14eb14;
+    --header-color:#f1f135;
+}
+*{
+    background-color:#5f5858 ;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+header{
+    background-color: var(--header-color);
+    color: pink;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1{
+    color: var(--heading-color);
+    margin-bottom: 5px;
+}
+nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+nav a{
+    color: #920bf2;
+    text-decoration:none;
+    font-weight: 500;
+}
+nav a:hover{
+    text-decoration:underline;
+    text-decoration-color:darkturquoise;
+}
+section {
+  margin: 40px 0;
+  padding: 10px;
+  background-color: var(--background-color);
+  border-radius: 8px;
+}
+section h2{
+    padding-bottom: 10px;
+    color: var(--text-color);
+}
+section img{
+   width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  margin: 20px auto;
+}
+.project{
+    margin-bottom: 30px;
+}
+.project h3{
+  text-align:left;
+  margin-top: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+input:hover,textarea:hover{
+    background-color: rgb(17, 69, 69);
+    font-size: 20px;
+}
+button{
+    color: azure;
+    border: solid 2px;
+    border-color: rgb(17, 69, 69);
+    cursor:pointer;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  background-color:none;
+  font-size: 0.9em;
+}
+/* Responsive */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction:column;
+    text-align: left;
+  }
+}
+
+>>>>>>> ee12e99 (Project1 Week1 completed)
